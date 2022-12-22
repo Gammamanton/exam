@@ -32,45 +32,43 @@ void main()
 	int m = arr[0][0];
 	int r = 0;
 
-	// Change < to > if you want to find the smallest element
-
 		for (int i = 0; i < COL; ++i) 
 		{
 
-			if (m < arr[r][i])
-				m = arr[r][i];
+			if (m < arr[i][r])
+				m = arr[i][r];
 		}
 
 
-	cout << "MAX ROW 1: " << m << endl;
+	cout << "MAX col 1: " << m << endl;
 
 	//max2
 
-	m = arr[1][0];
+	m = arr[0][1];
 	r = 1;
 
 	for (int i = 0; i < COL; ++i)
 	{
 
-		if (m < arr[r][i])
-			m = arr[r][i];
+		if (m < arr[i][r])
+			m = arr[i][r];
 	}
 
-	cout << "MAX ROW 2: " << m << endl;
+	cout << "MAX col 2: " << m << endl;
 
 	//max3
 
-	m = arr[2][0];
+	m = arr[0][2];
 	r = 2;
 
 	for (int i = 0; i < COL; ++i)
 	{
 
-		if (m < arr[r][i])
-			m = arr[r][i];
+		if (m < arr[i][r])
+			m = arr[i][r];
 	}
 
-	cout << "MAX ROW 3: " << m << endl << endl;
+	cout << "MAX col 3: " << m << endl << endl;
 
 	//find min
 		//min1
@@ -79,40 +77,40 @@ void main()
 	r = 0;
 
 	for (int i = 0; i < COL; i++) {
-		if (arr[r][i] < m) {
-			m = arr[r][i];
+		if (arr[i][r] < m) {
+			m = arr[i][r];
 		}
 	}
 
 
-	cout << "MIN ROW 1: " << m << endl;
+	cout << "MIN col 1: " << m << endl;
 
 	//min2
 
-	m = arr[1][0];
+	m = arr[0][1];
 	r = 1;
 
 	for (int i = 0; i < COL; i++) {
-		if (arr[r][i] < m) {
-			m = arr[r][i];
+		if (arr[i][r] < m) {
+			m = arr[i][r];
 		}
 	}
 
-	cout << "MIN ROW 2: " << m << endl;
+	cout << "MIN col 2: " << m << endl;
 
 	//min3
 
-	m = arr[2][0];
+	m = arr[0][2];
 	r = 2;
 
 	for (int i = 0; i < COL; i++) {
-		if (arr[r][i] < m) {
-			m = arr[r][i];
+		if (arr[i][r] < m) {
+			m = arr[i][r];
 		}
 	}
 
-	cout << "MIN ROW 3: " << m << endl << endl;
-	//
+	cout << "MIN col 3: " << m << endl << endl;
+	//min for max and max for min
 
 
 
