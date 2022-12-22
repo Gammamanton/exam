@@ -127,21 +127,33 @@ void main()
 	int temp;
 
 	//main and max col1
-	int tempi, tempr;
+	int timin, trmin, timax, trmax;
 	r = 0;
 	for (int i = 0; i < COL; i++)
 	{
-		if ( arr[i][r] = min1)
-
-
-
-
+		if (arr[i][r] = min1)
+		{
+			timin = i;
+			trmin = r;
+		}
 	}
+	for (int i = 0; i < COL; i++)
+	{
+		if (arr[i][r] = max1)
+		{
+			timax = i;
+			trmax = r;
+		}
+	}
+	temp = arr[timin][trmin];
+	arr[timin][trmin] = arr[timax][trmax];
+	arr[timax][trmax] = temp;
+
 
 	// swapping first and last element
-	temp = arr[0];
-	arr[0] = arr[size - 1];
-	arr[size - 1] = temp;
+	//temp = arr[0];
+	//arr[0] = arr[size - 1];
+	//arr[size - 1] = temp;
 
 
 
