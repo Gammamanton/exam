@@ -23,7 +23,7 @@ void main()
 		{
 			cout << arr[i][j] << "\t";
 		}
-		cout << endl;
+		cout << endl << endl;
 	}
 
 	//find max
@@ -46,7 +46,7 @@ void main()
 
 	//max2
 
-	m = arr[0][0];
+	m = arr[1][0];
 	r = 1;
 
 	for (int i = 0; i < COL; ++i)
@@ -60,7 +60,7 @@ void main()
 
 	//max3
 
-	m = arr[0][0];
+	m = arr[2][0];
 	r = 2;
 
 	for (int i = 0; i < COL; ++i)
@@ -70,7 +70,7 @@ void main()
 			m = arr[r][i];
 	}
 
-	cout << "MAX ROW 3: " << m << endl;
+	cout << "MAX ROW 3: " << m << endl << endl;
 
 	//find min
 		//min1
@@ -89,7 +89,7 @@ void main()
 
 	//min2
 
-	m = arr[0][0];
+	m = arr[1][0];
 	r = 1;
 
 	for (int i = 0; i < COL; i++) {
@@ -102,7 +102,7 @@ void main()
 
 	//min3
 
-	m = arr[0][0];
+	m = arr[2][0];
 	r = 2;
 
 	for (int i = 0; i < COL; i++) {
@@ -111,8 +111,8 @@ void main()
 		}
 	}
 
-	cout << "MIN ROW 3: " << m << endl;
-
+	cout << "MIN ROW 3: " << m << endl << endl;
+	//
 
 
 
