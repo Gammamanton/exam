@@ -151,11 +151,53 @@ void main()
 	arr[timin][trmin] = arr[timax][trmax];
 	arr[timax][trmax] = temp;
 
+	//main and max col2
+	r = 1;
+	mintemp = min2;
+	maxtemp = max2;
+	for (int i = 0; i < COL; i++)
+	{
+		if (arr[i][r] == mintemp)
+		{
+			timin = i;
+			trmin = r;
+		}
+	}
+	for (int i = 0; i < COL; i++)
+	{
+		if (arr[i][r] == maxtemp)
+		{
+			timax = i;
+			trmax = r;
+		}
+	}
+	temp = arr[timin][trmin];
+	arr[timin][trmin] = arr[timax][trmax];
+	arr[timax][trmax] = temp;
 
-	// swapping first and last element
-	//temp = arr[0];
-	//arr[0] = arr[size - 1];
-	//arr[size - 1] = temp;
+	//main and max col3
+	r = 2;
+	mintemp = min3;
+	maxtemp = max3;
+	for (int i = 0; i < COL; i++)
+	{
+		if (arr[i][r] == mintemp)
+		{
+			timin = i;
+			trmin = r;
+		}
+	}
+	for (int i = 0; i < COL; i++)
+	{
+		if (arr[i][r] == maxtemp)
+		{
+			timax = i;
+			trmax = r;
+		}
+	}
+	temp = arr[timin][trmin];
+	arr[timin][trmin] = arr[timax][trmax];
+	arr[timax][trmax] = temp;
 
 
 
