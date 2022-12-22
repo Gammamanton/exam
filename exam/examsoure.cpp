@@ -145,6 +145,7 @@ void main()
 			trmax = r;
 		}
 	}
+	cout << min1 << endl << timin;
 	temp = arr[timin][trmin];
 	arr[timin][trmin] = arr[timax][trmax];
 	arr[timax][trmax] = temp;
