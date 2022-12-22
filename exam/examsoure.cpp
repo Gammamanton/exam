@@ -42,6 +42,8 @@ void main()
 
 	cout << "MAX col 1: " << m << endl;
 
+	int max1 = m;
+
 	//max2
 
 	m = arr[0][1];
@@ -56,6 +58,8 @@ void main()
 
 	cout << "MAX col 2: " << m << endl;
 
+	int max2 = m;
+
 	//max3
 
 	m = arr[0][2];
@@ -69,6 +73,8 @@ void main()
 	}
 
 	cout << "MAX col 3: " << m << endl << endl;
+
+	int max3 = m;
 
 	//find min
 		//min1
@@ -85,6 +91,8 @@ void main()
 
 	cout << "MIN col 1: " << m << endl;
 
+	int min1 = m;
+
 	//min2
 
 	m = arr[0][1];
@@ -98,6 +106,8 @@ void main()
 
 	cout << "MIN col 2: " << m << endl;
 
+	int min2 = m;
+
 	//min3
 
 	m = arr[0][2];
@@ -110,7 +120,20 @@ void main()
 	}
 
 	cout << "MIN col 3: " << m << endl << endl;
+
+	int min3 = m;
+
 	//min for max and max for min
+
+
+
+
+
+
+
+
+
+
 
 
 
