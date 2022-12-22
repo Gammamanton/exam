@@ -32,7 +32,7 @@ void main()
 	int m = arr[0][0];
 	int r = 0;
 
-		for (int i = 0; i < COL; ++i) 
+		for (int i = 0; i < ROW; ++i) 
 		{
 
 			if (m < arr[i][r])
@@ -49,7 +49,7 @@ void main()
 	m = arr[0][1];
 	r = 1;
 
-	for (int i = 0; i < COL; ++i)
+	for (int i = 0; i < ROW; ++i)
 	{
 
 		if (m < arr[i][r])
@@ -65,7 +65,7 @@ void main()
 	m = arr[0][2];
 	r = 2;
 
-	for (int i = 0; i < COL; ++i)
+	for (int i = 0; i < ROW; ++i)
 	{
 
 		if (m < arr[i][r])
@@ -82,7 +82,7 @@ void main()
 	m = arr[0][0];
 	r = 0;
 
-	for (int i = 0; i < COL; i++) {
+	for (int i = 0; i < ROW; i++) {
 		if (arr[i][r] < m) {
 			m = arr[i][r];
 		}
@@ -98,7 +98,7 @@ void main()
 	m = arr[0][1];
 	r = 1;
 
-	for (int i = 0; i < COL; i++) {
+	for (int i = 0; i < ROW; i++) {
 		if (arr[i][r] < m) {
 			m = arr[i][r];
 		}
@@ -113,7 +113,7 @@ void main()
 	m = arr[0][2];
 	r = 2;
 
-	for (int i = 0; i < COL; i++) {
+	for (int i = 0; i < ROW; i++) {
 		if (arr[i][r] < m) {
 			m = arr[i][r];
 		}
@@ -125,7 +125,14 @@ void main()
 
 	//min for max and max for min
 
+	for (int i = 0; i < ROW; i++)
+	{
 
+
+
+
+
+	}
 
 
 
