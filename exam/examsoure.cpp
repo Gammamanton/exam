@@ -127,11 +127,13 @@ void main()
 	int temp;
 
 	//main and max col1
-	int timin, trmin, timax, trmax;
+	int timin, trmin, timax, trmax,mintemp, maxtemp;
 	r = 0;
+	mintemp = min1;
+	maxtemp = max1;
 	for (int i = 0; i < COL; i++)
 	{
-		if (arr[i][r] = min1)
+		if (arr[i][r] == mintemp)
 		{
 			timin = i;
 			trmin = r;
@@ -139,13 +141,12 @@ void main()
 	}
 	for (int i = 0; i < COL; i++)
 	{
-		if (arr[i][r] = max1)
+		if (arr[i][r] == maxtemp)
 		{
 			timax = i;
 			trmax = r;
 		}
 	}
-	cout << min1 << endl << timin;
 	temp = arr[timin][trmin];
 	arr[timin][trmin] = arr[timax][trmax];
 	arr[timax][trmax] = temp;
