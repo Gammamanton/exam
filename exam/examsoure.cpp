@@ -127,12 +127,11 @@ void main()
 	int temp;
 
 	//main and max col1
+	int tempi, tempr;
 	r = 0;
 	for (int i = 0; i < COL; i++)
 	{
-		if ( 
-
-			)
+		if ( arr[i][r] = min1)
 
 
 
