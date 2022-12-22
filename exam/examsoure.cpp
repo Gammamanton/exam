@@ -124,17 +124,25 @@ void main()
 	int min3 = m;
 
 	//min for max and max for min
+	int temp;
 
-	for (int i = 0; i < ROW; i++)
+	//main and max col1
+	r = 0;
+	for (int i = 0; i < COL; i++)
 	{
+		if ( 
 
+			)
 
 
 
 
 	}
 
-
+	// swapping first and last element
+	temp = arr[0];
+	arr[0] = arr[size - 1];
+	arr[size - 1] = temp;
 
 
 
